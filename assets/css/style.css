@@ -232,7 +232,7 @@ input.trialSubmit {
     font-size: 36px;
 }
 
-a.offerBtn {
+.offer-left ul li a.offerBtn {
     display: block;
     margin-left: 205px;
     font-size: 22px;

@@ -1,0 +1,308 @@
+/* 
+    Theme Core CSS Style Start here
+
+    Theme name: Onnaway
+    Theme version: v1
+    Designed By: Mahedi Hassan
+    Date: Wed 12 May, 2021
+
+*/
+
+
+/* Montserrat fonts Imported From Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+/* 
+    font-family: 'Montserrat', sans-serif;
+*/
+
+
+/* Root Varriable */
+
+ :root {
+    --btn-1-color: #2BA3FF;
+    --btn-2-color: #FF2B2B;
+    --offer-pop-up-bg: #232838;
+    --offer-pop-up-text-color: #ffffff;
+}
+
+
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/* Header Section Start */
+
+.header-logo {
+    float: left;
+}
+
+.nav-menu {
+    padding: 20px 0px;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation ul {
+    margin-bottom: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 15px 15px;
+}
+
+a.nav-item.menu-item-free-btn {
+    background: var(--btn-1-color);
+    color: #fff;
+    width: 165px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+/* Header Section End */
+
+
+/* Banner Section Start */
+
+.banner-main {
+    position: relative;
+}
+
+.banner-details {
+    padding: 100px 0px;
+}
+
+h1.banner-title-head {
+    font-size: 32px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+h1.banner-title-head::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 408px;
+    background: #29ABE2;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+h2.banner-sub-title-head {
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    margin-top: 25px;
+}
+
+.service-trial {
+    text-align: center;
+    margin-top: 75px;
+}
+
+label.trialUserLabel {
+    display: block;
+    font-size: 32px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #000;
+    text-align: left;
+    margin: 0px 205px 10px;
+}
+
+.trialUserEmail {
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    padding: 20px;
+    font-size: 22px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    border: 2px solid #000;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+input.trialSubmit {
+    background: transparent;
+    height: 50px;
+    width: 200px;
+    border: 2px solid #000;
+    line-height: 50px;
+    margin-left: -6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.offer-left {
+    position: absolute;
+    bottom: -165px;
+    left: 0;
+    background: #232838;
+    width: 1145px;
+    height: 115px;
+    line-height: 115px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.offer-left ul {
+    margin-bottom: 0;
+    margin-left: 295px;
+}
+
+.offer-left ul li {
+    display: inline-block;
+}
+
+.offer-left ul li.offer-title h2 {
+    margin-bottom: 0;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+}
+
+a.offerBtn {
+    display: block;
+    margin-left: 205px;
+    font-size: 22px;
+    background: #FF2B2B;
+    width: 190px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+/* Banner Section End */
+
+
+/* Service Card Start */
+
+#service-card {
+    position: relative;
+}
+
+.service-card {
+    text-align: center;
+    padding: 50px 6px;
+    border: 1px solid #11111138;
+    width: 330px;
+    height: 365px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+section#service-card {
+    margin-top: 280px;
+    margin-bottom: 300px;
+    padding: 30px 0px;
+}
+
+.service-icon {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+h3.service-card-title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 26px;
+    color: #111;
+    margin-top: 25px;
+}
+
+.offer-right {
+    position: absolute;
+    bottom: -165px;
+    right: 0;
+    background: #232838;
+    width: 1145px;
+    height: 115px;
+    line-height: 115px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.offer-right ul {
+    margin-bottom: 0;
+    margin-left: 45px;
+}
+
+.offer-right ul li {
+    display: inline-block;
+}
+
+.offer-right ul li.offer-title h2 {
+    margin-bottom: 0;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.offer-right ul li a.offerBtn {
+    display: block;
+    margin-left: 60px;
+    font-size: 22px;
+    background: #FF2B2B;
+    width: 190px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+/* Service Card End */

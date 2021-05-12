@@ -54,6 +54,12 @@ a:hover {
 
 /* Header Section Start */
 
+header#header {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+
 .header-logo {
     float: left;
 }
@@ -104,6 +110,25 @@ a.nav-item.menu-item-free-btn {
 
 .banner-main {
     position: relative;
+    padding: 125px 0px;
+}
+
+.banner-main::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: -90px;
+    width: 160px;
+    height: 160px;
+    background: #FFE5B7;
+    border-radius: 50%;
+}
+
+.banner-main::after {
+    position: absolute;
+    content: url(../images/bg-top-after.png);
+    top: 0;
+    right: 0;
 }
 
 .banner-details {
@@ -229,6 +254,13 @@ a.offerBtn {
 
 #service-card {
     position: relative;
+}
+
+section#service-card::before {
+    position: absolute;
+    content: url(../images/bg-bottom-before.png);
+    bottom: -310px;
+    left: 0;
 }
 
 .service-card {
